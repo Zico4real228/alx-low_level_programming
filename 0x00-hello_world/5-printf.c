@@ -7,4 +7,4 @@ int main(void)
 {
 	printf("with proper grammar, but this is a piece of art,\n");
 	return (0);
-}
+
