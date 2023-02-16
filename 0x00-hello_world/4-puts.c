@@ -6,5 +6,5 @@
 int main(void)
 {
 	puts("\"programming is lingual puzzle");
-	return (0); 
+	return (0);
 }
