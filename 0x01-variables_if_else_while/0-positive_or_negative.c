@@ -3,30 +3,30 @@
 #include <time.h>
 
 /**
- * * main - prints if the number is positive,negative or 0
- * * Return: Always 0
- * */
+* main - prints if the number is positive,negative or 0
+* Return: Always 0
+*/
 int main(void)
 {
 
-	        int n;
-		        
-		        srand(time(0));
-			        n = rand() - RAND_MAX / 2;
+        int n;
+        
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
 
-				        if (n > 0)
-						        {
-								                printf("%d is position\n", n);
-										         }
-					         else if (n == 0)
-							          {
-									                   print("%d is zero\n", n);
-											            }
-						          else
-								           {
-										                    print("%d is negative\n", n);
-												             }
+        if (n > 0)
+        {
+                printf("%d is position\n", n);
+         }
+         else if (n == 0)
+         {
+                 print("%d is zero\n", n);
+         }
+         else
+         {
+                 print("%d is negative\n", n);
+         }
 
-							           return (0);
+         return (0);
 
 }
